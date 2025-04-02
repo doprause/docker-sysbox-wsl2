@@ -1,6 +1,6 @@
 # Setting up Docker with Sysbox (CE) on WSL2
 
-Installation instructions for Docker with Sysbox runtime in WSl2.
+👉 Installation instructions for Docker with Sysbox runtime in WSl2.
 
 Based on: https://nickjanetakis.com/blog/install-docker-in-wsl-2-without-docker-desktop#demo-video
 
@@ -40,9 +40,9 @@ Please get Docker Desktop from https://www.docker.com/products/docker-desktop/
 You may press Ctrl+C now to abort this script.
 ```
 
-::: tip
+[> [!TIP]
 Ignore the warning
-:::
+]
 
 ### Add your user to the `docker` group
 
