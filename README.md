@@ -80,7 +80,10 @@ sha256sum sysbox-ce_0.6.6-0.linux_amd64.deb
 87cfa5cad97dc5dc1a243d6d88be1393be75b93a517dc1580ecd8a2801c2777a  sysbox-ce_0.6.6-0.linux_amd64.deb
 ```
 
-3. If Docker is running on the host, we recommend stopping and removing all Docker containers as follows (if an error is returned, it simply indicates that no existing containers were found):
+3. Stop Docker
+
+> [!NOTE]
+> If Docker is running on the host, we recommend stopping and removing all Docker containers as follows (if an error is returned, it simply indicates that no existing containers were found).
 
 ```sh
 docker rm $(docker ps -a -q) -f
